@@ -1,5 +1,176 @@
+call plug#begin('~/.nvim/plugged')
+
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-projectionist'
+Plug 'mustache/vim-mustache-handlebars'
+Plug 'blarghmatey/split-expander'
+Plug 'rking/ag.vim'
+Plug 'sjl/vitality.vim'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'geekjuice/vim-spec'
+Plug 'tpope/vim-bundler'
+Plug 'airblade/vim-gitgutter'
+Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-surround'
+Plug 'tmhedberg/matchit'
+Plug 'kana/vim-textobj-user'
+Plug 'nelstrom/vim-textobj-rubyblock'
+Plug 'vim-scripts/tComment'
+Plug 'scrooloose/nerdtree'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'skwp/greplace.vim'
+Plug 'vim-ruby/vim-ruby'
+Plug 'elixir-lang/vim-elixir'
+Plug 'scrooloose/syntastic'
+Plug 'tpope/vim-haml'
+Plug 'dkprice/vim-easygrep'
+Plug 'tpope/vim-rails'
+Plug 'altercation/vim-colors-solarized'
+Plug 'myusuf3/numbers.vim'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'jgdavey/tslime.vim'
+Plug 'henrik/vim-qargs'
+Plug 'kchmck/vim-coffee-script'
+Plug 'pangloss/vim-javascript'
+Plug 'jelera/vim-javascript-syntax'
+Plug 'jsx/jsx.vim'
+Plug 'terryma/vim-expand-region'
+Plug 'jpo/vim-railscasts-theme'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'flazz/vim-colorschemes'
+
+" EXTRAS
+Plug 'vim-airline/vim-airline-themes'
+
+Plug 'airblade/vim-gitgutter'
+"Plug 'alpaca-tc/beautify.vim'
+Plug 'altercation/vim-colors-solarized'
+Plug 'AndrewRadev/splitjoin.vim'
+Plug 'benekastah/neomake'
+Plug 'blarghmatey/split-expander'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'ConradIrwin/vim-bracketed-paste'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'dkprice/vim-easygrep'
+Plug 'eapache/rainbow_parentheses.vim'
+Plug 'edsono/vim-matchit'
+Plug 'elixir-lang/vim-elixir'
+Plug 'ervandew/supertab'
+Plug 'flazz/vim-colorschemes'
+Plug 'geekjuice/vim-spec'
+Plug 'godlygeek/tabular'
+Plug 'henrik/vim-qargs'
+Plug 'int3/vim-extradite'
+Plug 'itchyny/dictionary.vim'
+Plug 'jelera/vim-javascript-syntax'
+Plug 'jgdavey/tslime.vim'
+Plug 'jgdavey/vim-blockle'
+Plug 'jpo/vim-railscasts-theme'
+Plug 'jsx/jsx.vim'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/seoul256.vim'
+Plug 'justinmk/vim-sneak'
+Plug 'kana/vim-textobj-user'
+Plug 'kassio/neoterm'
+Plug 'kchmck/vim-coffee-script'
+Plug 'Keithbsmiley/rspec.vim'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'markabe/bufexplorer'
+Plug 'matze/vim-move'
+Plug 'mhinz/vim-startify'
+Plug 'morhetz/gruvbox'
+Plug 'mustache/vim-mustache-handlebars'
+Plug 'myusuf3/numbers.vim'
+Plug 'nathanaelkane/vim-indent-guides'
+Plug 'nelstrom/vim-textobj-rubyblock'
+Plug 'nelstrom/vim-visual-star-search'
+Plug 'othree/eregex.vim'
+Plug 'othree/html5.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'plasticboy/vim-markdown'
+Plug 'rking/ag.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'sickill/vim-pasta'
+Plug 'sjl/gundo.vim'
+Plug 'sjl/vitality.vim'
+Plug 'skwp/greplace.vim'
+Plug 'sts10/vim-mustard'
+Plug 'terryma/vim-expand-region'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'terryma/vim-smooth-scroll'
+Plug 'thinca/vim-localrc'
+Plug 'thoughtbot/vim-rspec'
+Plug 'tmhedberg/matchit'
+Plug 'tomtom/tcomment_vim'
+Plug 'tomtom/tlib_vim'
+Plug 'tpope/vim-abolish'
+Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-cucumber'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-haml'
+Plug 'tpope/vim-liquid'
+Plug 'tpope/vim-markdown'
+Plug 'tpope/vim-projectionist'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-rake'
+Plug 'tpope/vim-rbenv'
+Plug 'tpope/vim-repeat'
+"Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-vinegar'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-ruby/vim-ruby'
+Plug 'vim-scripts/tComment'
+"Plug 'Valloric/YouCompleteMe'
+Plug 'walm/jshint.vim', { 'for': 'javascript' }
+Plug 'xolox/vim-misc'
+Plug 'xolox/vim-notes'
+
+" colorscheme & syntax highlighting
+Plug 'mhartington/oceanic-next'   " colorscheme
+Plug 'Yggdroot/indentLine'        " prints vertical lines at each indentation level
+Plug 'Raimondi/delimitMate'       " automatic closing of quotes
+Plug 'Valloric/MatchTagAlways'    " highlight XML/HTML tags that enclose your cursor location
+Plug 'gorodinskiy/vim-coloresque' " highlight colors in css files
+
+" Git
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+
+" File Manager
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+
+" Utils
+Plug 'benekastah/neomake'     " plugin for asynchronous :make using (NeoVim)
+Plug 'bling/vim-airline'      " status-bar
+Plug 'tpope/vim-surround'     " for manipulation with quotes :)
+Plug 'tomtom/tcomment_vim'    " commenter
+Plug 'AndrewRadev/switch.vim' " useful switcher
+Plug 'Chiel92/vim-autoformat' " + install ruby-beautify gem
+Plug 'dkprice/vim-easygrep'   " Fast and Easy Find and Replace Across Multiple Files
+Plug 'scrooloose/syntastic'   " Syntax checker
+Plug 'ngmy/vim-rubocop'       " code-style checker for ruby
+Plug 'Shougo/deoplete.nvim'   " autocompletion plugin (NeoVim)
+Plug 'Shougo/neco-vim'        "  search in source for deoplete
+Plug 'Shougo/neoinclude.vim'  " search in included files for deoplete
+Plug 'Shougo/neco-syntax'     " search in syntax for deoplete
+Plug 'tpope/vim-endwise'      " autocomplete ruby blocks
+Plug 'junegunn/fzf'           " fuzzy finder
+Plug 'ashisha/image.vim'      " view images as ASCII
+" Add plugins to &runtimepath
+call plug#end()
+
 set shell=/bin/bash
-runtime macros/matchit.vim
+runtime macros/matchit.nvim
 
 set ttyfast
 set lazyredraw
@@ -61,7 +232,7 @@ cabbrev tf tabfirst
 cabbrev tl tablast
 
 set backspace=2   " Backspace deletes like most programs in insert mode
-set nocompatible  " Use Vim settings, rather then Vi settings
+set nocompatible  " Use NVim settings, rather then Vi settings
 set nobackup
 set nowritebackup
 set noswapfile    " http://robots.thoughtbot.com/post/18739402579/global-gitignore#comment-458413287
@@ -82,8 +253,8 @@ if (&t_Co > 2 || has("gui_running")) && !exists("syntax_on")
   syntax on
 endif
 
-if filereadable(expand("~/.vimrc.bundles"))
-  source ~/.vimrc.bundles
+if filereadable(expand("~/.nvimrc.bundles"))
+  source ~/.nvimrc.bundles
 endif
 
 filetype plugin indent on
@@ -147,12 +318,12 @@ if !exists('g:airline_symbols')
     let g:airline_symbols = {}
 endif
 let g:airline_symbols.space = "\ua0"
-let g:airline_theme='solarized'
+let g:airline_theme='powerlineish'
 set t_Co=256
 
 :set smartcase
 :set ignorecase
-:set noantialias
+":set noantialias
 
 " Color scheme
 colorscheme railscasts
@@ -170,7 +341,7 @@ set numberwidth=5
 let g:snippetsEmu_key = "<S-Tab>"
 
 " Persistent undo
-set undodir=~/.vim/undo/
+set undodir=~/.nvim/undo/
 set undofile
 set undolevels=1000
 set undoreload=10000
@@ -229,8 +400,8 @@ let g:syntastic_ruby_checkers = ['mri']
 let g:syntastic_enable_highlighting=0
 
 " Local config
-if filereadable($HOME . "/.vimrc.local")
-  source ~/.vimrc.local
+if filereadable($HOME . "/.nvimrc.local")
+  source ~/.nvimrc.local
 endif
 
 " Remove trailing whitespace on save for ruby files.
@@ -256,9 +427,4 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-" Easy Check
-"
-let g:syntastic_eruby_ruby_quiet_messages =
-    \ {'regex': 'possibly useless use of a variable in void context'}
-
-set mouse=a
+syntax on

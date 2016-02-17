@@ -155,7 +155,7 @@ set t_Co=256
 :set noantialias
 
 " Color scheme
-colorscheme railscasts
+colorscheme solarized
 set background=dark
 set encoding=utf-8
 
@@ -255,10 +255,3 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
-" Easy Check
-"
-let g:syntastic_eruby_ruby_quiet_messages =
-    \ {'regex': 'possibly useless use of a variable in void context'}
-
-set mouse=a

@@ -1,7 +1,7 @@
 set nocompatible
 
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.nvim/bundle/vundle/
 call vundle#rc()
 
 " Let Vundle manage Vundle
@@ -15,7 +15,7 @@ Bundle 'mustache/vim-mustache-handlebars'
 Bundle 'blarghmatey/split-expander'
 Bundle 'rking/ag.vim'
 Bundle 'sjl/vitality.vim'
-Bundle 'ctrlpvim/ctrlp.vim'
+Bundle 'kien/ctrlp.vim'
 Bundle 'geekjuice/vim-spec'
 Bundle 'tpope/vim-bundler'
 Bundle 'airblade/vim-gitgutter'
@@ -48,6 +48,6 @@ Bundle 'jsx/jsx.vim'
 Bundle 'terryma/vim-expand-region'
 Bundle 'jpo/vim-railscasts-theme'
 Bundle 'nathanaelkane/vim-indent-guides'
-Bundle 'Valloric/YouCompleteMe'
+
 
 filetype on

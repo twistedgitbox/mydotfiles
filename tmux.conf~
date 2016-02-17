@@ -128,17 +128,3 @@ bind -n C-Left resize-pane -L 10
 bind -n C-Right resize-pane -R 10
 bind -n C-Down resize-pane -D 5
 bind -n C-Up resize-pane -U 5
-
-# List of PlugIns
-set -g @plugin 'tmux-plugins/tmux-resurrect'
-# DEVSTUFF
-#bind-key C-m new-window -n vagrant-dev -c $HOME \; \
-#cp
-#  split-window -v -p 50 -t 1 \; \
-#  send-keys 'ranger' 'Enter' \; \
-#  split-window -h -p 70 -t \; \
-#send-keys 'clear && git-status' 'Enter' \; \
-#select-pane -t 2
-                            2 #
-#Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
-run '~/.tmux/plugins/tpm/tpm'
