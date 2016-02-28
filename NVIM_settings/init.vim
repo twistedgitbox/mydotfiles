@@ -166,6 +166,16 @@ Plug 'Shougo/neco-syntax'     " search in syntax for deoplete
 Plug 'tpope/vim-endwise'      " autocomplete ruby blocks
 Plug 'junegunn/fzf'           " fuzzy finder
 Plug 'ashisha/image.vim'      " view images as ASCII
+
+" Add Simple BDD to NVIM
+Plug 'mdelillo/vim-simple-bdd'
+
+" Add Closetag
+"Plug 'vim-scripts/closetag.vim' " Ctl _ to use
+Plug 'tpope/vim-endwise'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+" Plug 'Townk/vim-autoclose'
 " Add plugins to &runtimepath
 call plug#end()
 
@@ -339,6 +349,15 @@ set numberwidth=5
 
 " Snippets are activated by Shift+Tab
 let g:snippetsEmu_key = "<S-Tab>"
+
+" Trigger configuration. Do not use <tab> if you use
+" https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<c-u>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
 
 " Persistent undo
 set undodir=~/.nvim/undo/

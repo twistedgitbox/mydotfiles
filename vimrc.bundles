@@ -50,4 +50,7 @@ Bundle 'jpo/vim-railscasts-theme'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'Valloric/YouCompleteMe'
 
+Bundle 'mdelillo/vim-simple-bdd'
+" Add SimpleBDD gem
+
 filetype on

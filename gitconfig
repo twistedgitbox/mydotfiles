@@ -14,6 +14,8 @@
   pr = !hub pull-request
   st = status
   up = !git fetch origin && git rebase origin/master
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	lg-ascii = log --graph --pretty=format:'%h -%d %s (%cr) <%an>' --abbrev-commit
 [core]
   excludesfile = ~/.gitignore
   autocrlf = input
@@ -22,7 +24,7 @@
 [include]
   path = .gitconfig.local
 [commit]
-	template = /Users/mike/.gitmessage
+	template = /home/devbox/dotfiles/.gitmessage
 [user]
   name = Michael Kelly
 	email = jcisecurebuildinfo@gmail.com
