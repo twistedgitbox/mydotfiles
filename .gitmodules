@@ -4,3 +4,6 @@
 [submodule "powerline-fonts"]
 	path = powerline-fonts
 	url = https://github.com/Lokaltog/powerline-fonts
+[submodule "nvim/testone/nvim"]
+	path = nvim/testone/nvim
+	url = /home/devbox/.config/nvim
