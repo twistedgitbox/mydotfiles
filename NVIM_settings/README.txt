@@ -10,7 +10,7 @@ Everything should work then.
 
 HERE are the rest of the settings I use to get a clean Vagrant install up to dev environment for Rails:
 
-RVM 
+RVM
 
 rvm get head
 rvm reload
@@ -56,7 +56,7 @@ sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs
 
-GIT 
+GIT
 sudo apt-get install build-essential libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext unzip
 
 rails server --binding=server_public_IP
@@ -69,7 +69,7 @@ sudo apt-get update
 sudo apt-get install rcm
 env RCRC=$HOME/dotfiles/rcrc rcup
 
-Sudo apt-get install zsh 
+Sudo apt-get install zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 NEOVIM
@@ -78,6 +78,15 @@ sudo apt-get install python-software-properties
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get install neovim
 sudo apt-get install python-dev python-pip python3-dev python3-pip
+
+sudo pip2 install neovim
+sudo pip3 install neovim
+
+sudo pip2 install --upgrade neovim
+sudo pip3 install --upgrade neovim
+
+* note check init.vim to assure plugins are being installed to the right
+  directory for nvim or vim.  nvim should be ~/.config/nvim/
 
 POSTGRESQL
 
@@ -96,6 +105,6 @@ https://github.com/junegunn/vim-plug
 curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-COPY plugin list to .config/nvim/init.vim 
+COPY plugin list to .config/nvim/init.vim
 :PlugInstall
 
